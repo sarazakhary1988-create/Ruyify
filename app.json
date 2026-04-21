@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Ruyify",
+    "slug": "ruyify-business-consulting",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "description": "AI-powered business consulting platform for the GCC region. Transform your vision into growth with comprehensive business planning and AI-powered insights.",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#5B2C83"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "scheme": "ruyify",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ruyify.business",
+      "buildNumber": "1",
+      "infoPlist": {
+        "CFBundleDisplayName": "Ruyify",
+        "CFBundleName": "Ruyify",
+        "LSApplicationQueriesSchemes": [
+          "mailto",
+          "tel"
+        ],
+        "NSUserTrackingUsageDescription": "This app uses data for personalized business insights and recommendations."
+      },
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#5B2C83"
+      },
+      "package": "com.ruyify.business",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ],
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "57bc6450-55c6-4682-87d5-4c432a102a1a"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "experiments": {
+      "typedRoutes": false
+    },
+    "plugins": [
+      "expo-dev-client"
+    ]
+  }
+}
